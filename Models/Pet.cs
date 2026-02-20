@@ -1,5 +1,6 @@
 using System;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
 namespace PetPackApi.Models
 {
@@ -19,6 +20,8 @@ namespace PetPackApi.Models
         public double Weight { get; set; }
 
         public int PackId { get; set; }
+
+        [ValidateNever]
         public Pack Pack { get; set; }
     }
 }

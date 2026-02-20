@@ -1,0 +1,78 @@
+## Ignore Visual Studio temporary files, build outputs, and sensitive files
+
+# User-specific files
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+/bin/
+/obj/
+/out/
+artifacts/
+TestResults/
+
+# Publish folder
+/publish/
+
+# Rider
+.idea/
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuget/*
+packages/
+project.assets.json
+
+# Dotnet publish / runtime files
+*.runtimeconfig.json
+*.deps.json
+*.dll
+*.exe
+*.app
+*.pdb
+
+# VS Code workspace storage
+.history/
+
+# Local app settings and secrets (keep production config tracked)
+appsettings.Development.json
+secrets.json
+secrets.*
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.mdf
+*.ldf
+
+# Log files
+*.log
+logs/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Mono
+*.pidb
+
+# JetBrains Rider
+.idea/
+
+# Avoid committing compiled Razor/Scss caches
+rjsmcshtml.dswa.cache.json
+rjsmrazor.dswa.cache.json
+rpswa.dswa.cache.json
+
+# Ignore build host and other temporary folders that appear in obj/bin
+BuildHost-*/
